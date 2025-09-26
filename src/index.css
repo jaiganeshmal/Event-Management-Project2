@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+
+.custom-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 50px;
+}
+
+.custom-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: white !important;
+  opacity: 0.5;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.custom-pagination .swiper-pagination-bullet-active {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+
+/* Dots color + bottom position */
+.swiper-pagination {
+  bottom: 0 !important; /* force dots at bottom */
+}
+
+.swiper-pagination-bullet {
+  background: #71644D !important;
+  opacity: 0.4;
+  width: 10px;
+  height: 10px;
+  transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  transform: scale(1.2);
+}
