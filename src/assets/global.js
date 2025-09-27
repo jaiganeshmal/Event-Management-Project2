@@ -1,79 +1,42 @@
-import logo from "./logo.png"
 import logo1 from "./img/logo.png"
-import hero from "./img/hero.mp4"
-import image1 from "./img/img1.webp"
-import image2 from "./img/img2.jpg"
-import image3 from "./img/img3.jpg"
-import image4 from "./img/img4.jpg"
-import image5 from "./img/img5.webp"
-import image6 from "./img/img6.jpg"
-import image7 from "./img/img7.webp"
-import image8 from "./img/img8.webp"
-import image9 from "./img/img9.jpg"
-import image10 from "./img/img10.jpg"
-import image11 from "./img/img11.jpeg"
-import image12 from "./img/img12.webp"
-import image13 from "./img/img13.jpg"
-import image14 from "./img/img14.jpg"
-import image15 from "./img/img15.jpg"
-import image16 from "./img/img16.jpg"
-import image17 from "./img/img17.jpg"
-import image18 from "./img/img18.jpg"
-import image19 from "./img/img19.webp"
-import image20 from "./img/img20.jpg"
-import image21 from "./img/img21.webp"
-import image22 from "./img/img22.png"
-import image23 from "./img/img23.png"
-import image24 from "./img/img24.png"
-import image25 from "./img/img25.png"
-import image26 from "./img/img26.png"
-import image27 from "./img/img27.png"
-import image28 from "./img/img28.webp"
-import image29 from "./img/img29.webp"
-import image30 from "./img/img30.webp"
-import image31 from "./img/img31.webp"
-import image32 from "./img/img32.webp"
-import image33 from "./img/img33.webp"
-import image34 from "./img/img34.webp"
-import image35 from "./img/img35.webp"
 
 
 export const assets = {
   logo1,
-  hero,
-  image1,
-  image2,
-  image3,
-  image4,
-  image5,
-  image6,
-  image7,
-  image8,
-  image9,
-  image10,
-  image11,
-  image12,
-  image13,
-  image14,
-  image15,
-  image16,
-  image17,
-  image18,
-  image19,
-  image20,
-  image21,
-  image22,
-  image23,
-  image24,
-  image25,
-  image26,
-  image27,
-  image28,
-  image29,
-  image30,
-  image31,
-  image32,
-  image33,
-  image34,
-  image35
+  hero : 'https://res.cloudinary.com/dy2ddzcoq/video/upload/v1758958713/hero_b83fnj.mp4',
+  image1 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959172/img1_mhaahw.webp',
+  image2 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959172/img2_es1ux5.jpg',
+  image3 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959172/img3_lylq0z.jpg',
+  image4 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959172/img4_ssxtj7.jpg',
+  image5 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959172/img5_jk0fvv.webp',
+  image6 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959173/img6_ai2sbc.jpg',
+  image7 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959172/img7_ya8sef.webp',
+  image8 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959173/img8_qjbpvl.webp',
+  image9 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959174/img9_rk3yej.jpg',
+  image10 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959175/img10_nql9pb.jpg',
+  image11 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959176/img11_hdudvd.jpg',
+  image12 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959176/img12_vk32cq.webp',
+  image13 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959177/img13_sesfod.jpg',
+  image14 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959178/img14_lwoxk3.jpg',
+  image15 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959179/img15_sw9pku.jpg',
+  image16 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959179/img16_pdxrpt.jpg',
+  image17 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959180/img17_gm7vnq.jpg',
+  image18 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959181/img18_xacknx.jpg',
+  image19 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959182/img19_ufakey.webp',
+  image20 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959182/img20_xwqpmi.jpg',
+  image21 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959184/img21_nx4miy.webp',
+  image22 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959184/img22_omnlci.png',
+  image23 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959185/img23_omc7mp.png',
+  image24 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959186/img24_pholxp.png',
+  image25 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959187/img25_q2wokx.png',
+  image26 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959188/img26_jllgub.png',
+  image27 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959188/img27_gtywsm.png',
+  image28 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959189/img28_piocsm.webp',
+  image29 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959190/img29_p10xwa.webp',
+  image30 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959191/img30_n50hss.webp',
+  image31 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959191/img31_wboeeh.webp',
+  image32 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959192/img32_odxevt.webp',
+  image33 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959193/img33_vyimei.webp',
+  image34 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959195/img34_ezzsag.webp',
+  image35 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959195/img35_ym9itn.webp',
 };

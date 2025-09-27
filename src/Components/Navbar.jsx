@@ -26,6 +26,7 @@ const Navbar = () => {
           <img
             src={assets.logo1}
             alt="Lili's Events Logo"
+            loading="lazy"
             className="h-12 w-auto"
           />
         </div>

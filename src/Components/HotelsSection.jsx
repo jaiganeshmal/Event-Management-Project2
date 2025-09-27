@@ -56,6 +56,7 @@ const HotelsSection = () => {
                   <img
                     src={hotel.img}
                     alt={hotel.name}
+                    loading="lazy"
                     className="w-full h-full object-cover"
                   />
                 </div>

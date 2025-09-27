@@ -25,7 +25,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
         {/* Col 1 - Logo + text */}
         <div>
-          <img src={assets.logo1} alt="Lili's Events Logo" className="h-14 mb-4" />
+          <img src={assets.logo1} alt="Lili's Events Logo" loading="lazy" className="h-14 mb-4" />
           <p className="text-sm leading-relaxed">
             Offering the best event management services in UAE.
           </p>

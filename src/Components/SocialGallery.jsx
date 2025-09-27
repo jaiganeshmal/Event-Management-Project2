@@ -30,6 +30,7 @@ const SocialGallery = () => {
               <img
                 src={item.img}
                 alt={`social-${index}`}
+                loading="lazy"
                 className="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500"
               />
             </a>

@@ -48,6 +48,7 @@ const ServicesSection = () => {
               <img
                 src={service.img}
                 alt={service.title}
+                loading="lazy"
                 className="w-full h-full object-cover"
               />
             </div>
