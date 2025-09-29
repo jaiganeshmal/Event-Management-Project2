@@ -1,8 +1,8 @@
-import logo1 from "./img/logo.png"
+import logo from "./logo.png"
 
 
 export const assets = {
-  logo1,
+  logo,
   hero : 'https://res.cloudinary.com/dy2ddzcoq/video/upload/v1758958713/hero_b83fnj.mp4',
   image1 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959172/img1_mhaahw.webp',
   image2 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758959172/img2_es1ux5.jpg',

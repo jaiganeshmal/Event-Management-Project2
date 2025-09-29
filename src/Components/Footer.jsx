@@ -25,7 +25,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
         {/* Col 1 - Logo + text */}
         <div>
-          <img src={assets.logo1} alt="Lili's Events Logo" loading="lazy" className="h-14 mb-4" />
+          <img src={assets.logo} alt="Lili's Events Logo" loading="lazy" className="h-14 mb-4" />
           <p className="text-sm leading-relaxed">
             Offering the best event management services in UAE.
           </p>
@@ -53,7 +53,7 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-4">Contact</h3>
           <p className="text-sm mb-2">Marina Plaza, Dubai United, Arab Emirates</p>
           <p className="text-sm mb-2">T: +971 502955667</p>
-          <p className="text-sm">E: lilisevent@gmail.com</p>
+          <p className="text-sm">E: infoevent@gmail.com</p>
         </div>
 
         {/* Col 4 - Follow Us */}
@@ -76,7 +76,7 @@ const Footer = () => {
               <FaMapMarkerAlt />
             </a>
           </div>
-          <p className="text-xs">© Copyright Lilis Events 2025</p>
+          <p className="text-xs">© Copyright UC Events 2025</p>
         </div>
       </div>
     </footer>

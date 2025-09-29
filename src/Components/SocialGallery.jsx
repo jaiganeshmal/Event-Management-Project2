@@ -3,14 +3,14 @@ import { assets } from "../assets/global";
 import { FaInstagram } from "react-icons/fa";
 
 const socialLinks = [
-  { img: assets.image28, url: "https://instagram.com/lilis_events" },
-  { img: assets.image29, url: "https://instagram.com/lilis_events" },
-  { img: assets.image30, url: "https://instagram.com/lilis_events" },
-  { img: assets.image31, url: "https://instagram.com/lilis_events" },
-  { img: assets.image32, url: "https://instagram.com/lilis_events" },
-  { img: assets.image33, url: "https://instagram.com/lilis_events" },
-  { img: assets.image34, url: "https://instagram.com/lilis_events" },
-  { img: assets.image35, url: "https://instagram.com/lilis_events" },
+  { img: assets.image28, url: "https://instagram.com" },
+  { img: assets.image29, url: "https://instagram.com" },
+  { img: assets.image30, url: "https://instagram.com" },
+  { img: assets.image31, url: "https://instagram.com" },
+  { img: assets.image32, url: "https://instagram.com" },
+  { img: assets.image33, url: "https://instagram.com" },
+  { img: assets.image34, url: "https://instagram.com" },
+  { img: assets.image35, url: "https://instagram.com" },
 ];
 
 const SocialGallery = () => {

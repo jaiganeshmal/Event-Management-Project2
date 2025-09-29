@@ -6,7 +6,7 @@ const services = [
     id: 1,
     title: "Private Events",
     img: assets.image1,
-    desc: "At Lili’s Events, we specialize in creating private events and celebrations tailored to your unique desires. Whether it's a private dinner, an anniversary party, or a chic soirée, we bring your vision to life with meticulous attention to detail.",
+    desc: "At UC Events, we specialize in creating private events and celebrations tailored to your unique desires. Whether it's a private dinner, an anniversary party, or a chic soirée, we bring your vision to life with meticulous attention to detail.",
   },
   {
     id: 2,
@@ -18,13 +18,13 @@ const services = [
     id: 3,
     title: "Corporate Events",
     img: assets.image3,
-    desc: "Take your corporate events to the highest levels with Lili’s Events. From impactful conferences to luxurious gala evenings, we merge creativity with professionalism to deliver an unforgettable experience.",
+    desc: "Take your corporate events to the highest levels with UC Events. From impactful conferences to luxurious gala evenings, we merge creativity with professionalism to deliver an unforgettable experience.",
   },
   {
     id: 4,
     title: "Birthday Parties",
     img: assets.image4,
-    desc: "Make every birthday a celebration to remember with Lili’s Events. From themed extravaganzas to intimate gatherings, our creative touch brings joy and excitement to every moment tailored to your preferences.",
+    desc: "Make every birthday a celebration to remember with UC Events. From themed extravaganzas to intimate gatherings, our creative touch brings joy and excitement to every moment tailored to your preferences.",
   },
 ];
 
