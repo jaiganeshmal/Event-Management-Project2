@@ -59,7 +59,7 @@ const ServicesSection = () => {
                 {service.title}
               </h3>
               <p className="text-gray-600 mb-6">{service.desc}</p>
-              <button className="self-start cursor-pointer px-6 py-2 border border-[#C62828] text-[#212121] rounded-lg font-semibold hover:bg-[#FBC02D] hover:text-[#212121] transition">
+              <button className="self-start cursor-pointer px-6 py-2 bg-[#C62828] text-white rounded-lg font-semibold hover:bg-[#FBC02D] hover:text-white transition">
                 Learn More
               </button>
             </div>
@@ -68,11 +68,11 @@ const ServicesSection = () => {
       </div>
 
       {/* View All Button */}
-      <div className="mt-8 text-center">
+      {/* <div className="mt-8 text-center">
         <button className="px-8 py-3 cursor-pointer border border-[#C62828] text-[#212121] rounded-lg font-semibold hover:bg-[#FBC02D] hover:text-[#212121] transition">
           View All Services
         </button>
-      </div>
+      </div> */}
     </section>
   );
 };

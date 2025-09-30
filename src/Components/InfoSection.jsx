@@ -5,7 +5,7 @@ const InfoSection = () => {
     <section className="w-full py-8 border-y-2 bg-white" >
       <div className="container mx-auto px-6 text-center">
         <h2 className="text-lg md:text-xl font-semibold" style={{ color: "#212121" }}>
-          Event Management Company in Dubai | Wedding Planner in Dubai | Corporate Event Company in Dubai
+          Event Management Company in Pakistan | Wedding Planner in Pakistan | Corporate Event Company in Pakistan
         </h2>
       </div>
     </section>

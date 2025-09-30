@@ -65,7 +65,7 @@ const HotelsSection = () => {
                   <h3 className="text-lg sm:text-xl font-semibold text-[#212121] mb-3">
                     {hotel.name}
                   </h3>
-                  <button className="px-4 sm:px-6 py-2 border border-[#C62828] text-[#212121] rounded-lg font-semibold hover:bg-[#FBC02D] hover:text-[#212121] transition cursor-pointer">
+                  <button className="px-4 sm:px-6 py-2 bg-[#C62828] text-white rounded-lg font-semibold hover:bg-[#FBC02D] hover:text-white transition cursor-pointer">
                     Book Now
                   </button>
                 </div>

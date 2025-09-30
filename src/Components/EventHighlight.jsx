@@ -12,7 +12,7 @@ const EventHighlight = () => {
       {/* Paragraph */}
       <p className="max-w-3xl mx-auto text-gray-600 text-lg md:text-xl leading-relaxed mb-6">
         Experience inspiration and excitement with UC Events, the top event
-        management company in Dubai. We specialize in bringing sophistication
+        management company in Pakistan. We specialize in bringing sophistication
         and expertise to every occasion, ensuring a breathtaking and
         unforgettable experience. Let’s turn your ordinary event into something
         truly extraordinary!

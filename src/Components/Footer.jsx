@@ -27,7 +27,7 @@ const Footer = () => {
         <div>
           <img src={assets.logo} alt="Lili's Events Logo" loading="lazy" className="h-24 mb-2" />
           <p className="text-sm leading-relaxed">
-            Offering the best event management services in UAE.
+            Offering the best event management services in Pakistan.
           </p>
         </div>
 
@@ -51,7 +51,7 @@ const Footer = () => {
         {/* Col 3 - Contact */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Contact</h3>
-          <p className="text-sm mb-2">Marina Plaza, Dubai United, Arab Emirates</p>
+          <p className="text-sm mb-2">Marina Plaza, Pakistan United, Arab Emirates</p>
           <p className="text-sm mb-2">T: +971 502955667</p>
           <p className="text-sm">E: infoevent@gmail.com</p>
         </div>
@@ -60,19 +60,19 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
           <div className="flex space-x-4 text-xl mb-6">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-black transition">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#FBC02D] text-[#C62828] transition">
               <FaFacebookF />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-black transition">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#FBC02D] text-[#C62828] transition">
               <FaInstagram />
             </a>
-            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="hover:text-black transition">
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#FBC02D] text-[#C62828] transition">
               <FaYoutube />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-black transition">
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#FBC02D] text-[#C62828] transition">
               <FaLinkedinIn />
             </a>
-            <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="hover:text-black transition">
+            <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#FBC02D] text-[#C62828] transition">
               <FaMapMarkerAlt />
             </a>
           </div>
