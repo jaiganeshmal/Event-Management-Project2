@@ -27,7 +27,7 @@ const Navbar = () => {
             src={assets.logo}
             alt="Lili's Events Logo"
             loading="lazy"
-            className="h-16 w-auto"
+            className="h-20 w-auto"
           />
         </div>
 
