@@ -15,7 +15,7 @@ const socialLinks = [
 
 const SocialGallery = () => {
   return (
-    <section className="w-full py-16 bg-white">
+    <section className="w-full py-10 bg-white">
       <div className="container mx-auto px-6">
         {/* Image Grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -38,13 +38,13 @@ const SocialGallery = () => {
         </div>
 
         {/* Button */}
-        <div className="text-center mt-12">
+        <div className="text-center mt-8">
           <a
             href="https://instagram.com/lilis_events"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-3 rounded-lg text-white font-semibold transition-all duration-300"
-            style={{ backgroundColor: "#71644D" }}
+            style={{ backgroundColor: "#C62828" }}
           >
             <FaInstagram size={20} />
             Follow on Instagram

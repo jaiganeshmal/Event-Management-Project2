@@ -16,15 +16,15 @@ const clientLogos = [
 
 const Clients = () => {
   return (
-    <section className="w-full py-16 bg-white">
+    <section className="w-full py-8 bg-white">
       <div className="container mx-auto px-6 text-center">
         {/* Heading */}
-        <h2 className="text-4xl font-bold mb-12" style={{ color: "#71644D" }}>
+        <h2 className="text-4xl font-bold mb-6" style={{ color: "#212121" }}>
           Our Clients
         </h2>
 
         {/* Swiper Wrapper with extra padding for dots */}
-        <div className="relative pb-12">
+        <div className="relative">
           <Swiper
             modules={[Autoplay, Pagination]}
             autoplay={{ delay: 2000, disableOnInteraction: false }}

@@ -2,12 +2,12 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <section className="w-full py-16 bg-white">
+    <section className="w-full py-8 bg-white">
       <div className="container mx-auto px-6 text-center">
         {/* Heading */}
         <h2
-          className="text-4xl font-bold mb-12"
-          style={{ color: "#71644D" }}
+          className="text-4xl font-bold mb-8"
+          style={{ color: "#212121" }}
         >
           Get in Touch to Plan Your Next Event!
         </h2>
@@ -21,8 +21,8 @@ const ContactForm = () => {
               placeholder="Name"
               className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2"
               style={{
-                borderColor: "#71644D",
-                color: "#71644D",
+                borderColor: "#C62828",
+                color: "#212121",
               }}
             />
             <input
@@ -30,8 +30,8 @@ const ContactForm = () => {
               placeholder="Phone"
               className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2"
               style={{
-                borderColor: "#71644D",
-                color: "#71644D",
+                borderColor: "#C62828",
+                color: "#212121",
               }}
             />
             <input
@@ -39,8 +39,8 @@ const ContactForm = () => {
               placeholder="Location"
               className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2"
               style={{
-                borderColor: "#71644D",
-                color: "#71644D",
+                borderColor: "#C62828",
+                color: "#212121",
               }}
             />
           </div>
@@ -52,8 +52,8 @@ const ContactForm = () => {
               placeholder="Number of Guests"
               className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2"
               style={{
-                borderColor: "#71644D",
-                color: "#71644D",
+                borderColor: "#C62828",
+                color: "#212121",
               }}
             />
             <input
@@ -61,8 +61,8 @@ const ContactForm = () => {
               placeholder="Date"
               className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2"
               style={{
-                borderColor: "#71644D",
-                color: "#71644D",
+                borderColor: "#C62828",
+                color: "#212121",
               }}
             />
           </div>
@@ -71,7 +71,7 @@ const ContactForm = () => {
           <button
             type="submit"
             className="px-8 py-3 rounded-lg text-white font-semibold transition-all duration-300"
-            style={{ backgroundColor: "#71644D" }}
+            style={{ backgroundColor: "#C62828" }}
           >
             Submit
           </button>

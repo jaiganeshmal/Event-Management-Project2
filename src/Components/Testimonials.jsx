@@ -57,7 +57,7 @@ const testimonials = [
 const Testimonials = () => {
     return (
         <section
-            className="w-full h-screen bg-cover bg-center flex items-center justify-center px-6"
+            className="w-full h-[80vh] bg-cover bg-center flex items-center justify-center px-6"
             style={{ backgroundImage: `url(${assets.image21})` }}
         >
             <div className="w-full max-w-5xl">

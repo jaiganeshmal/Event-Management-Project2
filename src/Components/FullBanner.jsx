@@ -4,7 +4,7 @@ import { assets } from "../assets/global";
 const FullBanner = () => {
   return (
     <section
-      className="relative w-full h-screen bg-cover bg-center"
+      className="relative w-full h-[80vh] bg-cover bg-center"
       style={{ backgroundImage: `url(${assets.image20})` }}
     >
       {/* Overlay */}
@@ -18,7 +18,7 @@ const FullBanner = () => {
         <p className="max-w-2xl text-lg md:text-xl text-gray-200 mb-6">
           Creating unforgettable moments with elegance, style, and perfection.
         </p>
-        <button className="px-8 py-3 bg-[#71644D] text-white rounded-full text-lg font-semibold hover:bg-black transition">
+        <button className="px-8 py-3 bg-[#C62828] text-white rounded-full text-lg font-semibold hover:bg-[#FBC02D] transition">
           Explore More
         </button>
       </div>

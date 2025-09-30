@@ -27,12 +27,12 @@ const Navbar = () => {
             src={assets.logo}
             alt="Lili's Events Logo"
             loading="lazy"
-            className="h-12 w-auto"
+            className="h-16 w-auto"
           />
         </div>
 
         {/* Desktop Links */}
-        <ul className="hidden md:flex space-x-8 text-[#71644D] font-medium">
+        <ul className="hidden md:flex space-x-8 text-[#212121] font-medium">
           {navLinks.map((link) => (
             <li key={link.name}>
               <NavLink
@@ -50,7 +50,7 @@ const Navbar = () => {
         </ul>
 
         {/* Desktop Social Icons */}
-        <div className="hidden md:flex space-x-4 text-[#71644D] text-lg">
+        <div className="hidden md:flex space-x-4 text-[#C62828] text-lg">
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition">
             <FaFacebookF />
           </a>

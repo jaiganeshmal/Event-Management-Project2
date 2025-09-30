@@ -26,14 +26,14 @@ const hotels = [
 
 const HotelsSection = () => {
   return (
-    <section className="py-16 px-4 sm:px-6 md:px-10 bg-white relative">
+    <section className="p-8 sm:px-6 md:px-10 bg-white relative">
       {/* Heading */}
-      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#71644D] text-center mb-12">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#212121] text-center mb-8">
         Hotels We Work With
       </h2>
 
       {/* Swiper Slider */}
-      <div className="max-w-6xl mx-auto relative ">
+      <div className="max-w-6xl mx-auto relative">
         <Swiper
           modules={[Navigation]}
           navigation={{
@@ -50,7 +50,7 @@ const HotelsSection = () => {
         >
           {hotels.map((hotel) => (
             <SwiperSlide key={hotel.id}>
-              <div className="bg-white rounded-xl shadow-md overflow-hidden transform transition hover:scale-[1.02] hover:shadow-lg">
+              <div className="my-2 bg-white rounded-xl shadow-md overflow-hidden transform transition hover:scale-[1.02] hover:shadow-lg">
                 {/* Hotel Image */}
                 <div className="h-56 sm:h-64 md:h-72">
                   <img
@@ -62,10 +62,10 @@ const HotelsSection = () => {
                 </div>
                 {/* Content */}
                 <div className="p-4 sm:p-6 text-center">
-                  <h3 className="text-lg sm:text-xl font-semibold text-[#71644D] mb-3">
+                  <h3 className="text-lg sm:text-xl font-semibold text-[#212121] mb-3">
                     {hotel.name}
                   </h3>
-                  <button className="px-4 sm:px-6 py-2 border border-[#71644D] text-[#71644D] rounded-lg font-semibold hover:bg-[#71644D] hover:text-white transition">
+                  <button className="px-4 sm:px-6 py-2 border border-[#C62828] text-[#212121] rounded-lg font-semibold hover:bg-[#FBC02D] hover:text-[#212121] transition cursor-pointer">
                     Book Now
                   </button>
                 </div>
@@ -75,10 +75,10 @@ const HotelsSection = () => {
         </Swiper>
 
         {/* Custom Arrows */}
-        <button className="custom-prev absolute left-2 md:-left-10 top-1/2 transform -translate-y-1/2 bg-[#71644D] text-white p-3 rounded-full z-10 hover:bg-black transition">
+        <button className="custom-prev absolute left-2 md:-left-10 top-1/2 transform -translate-y-1/2 bg-[#C62828] text-white p-3 rounded-full z-10 hover:bg-[#FBC02D] transition">
           <FaArrowLeft size={18} />
         </button>
-        <button className="custom-next absolute right-2 md:-right-10 top-1/2 transform -translate-y-1/2 bg-[#71644D] text-white p-3 rounded-full z-10 hover:bg-black transition">
+        <button className="custom-next absolute right-2 md:-right-10 top-1/2 transform -translate-y-1/2 bg-[#C62828] text-white p-3 rounded-full z-10 hover:bg-[#FBC02D] transition">
           <FaArrowRight size={18} />
         </button>
       </div>

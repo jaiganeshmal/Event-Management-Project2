@@ -30,9 +30,9 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section className="py-20 px-6 bg-gray-50">
+    <section className="p-8 bg-gray-50">
       {/* Heading */}
-      <h2 className="text-3xl md:text-4xl font-bold text-[#71644D] text-center mb-16">
+      <h2 className="text-3xl md:text-4xl font-bold text-[#212121] text-center mb-8">
         Our Services
       </h2>
 
@@ -55,11 +55,11 @@ const ServicesSection = () => {
 
             {/* Right - Content */}
             <div className="md:w-1/2 p-6 flex flex-col justify-center">
-              <h3 className="text-2xl font-semibold text-[#71644D] mb-4">
+              <h3 className="text-2xl font-semibold text-[#212121] mb-4">
                 {service.title}
               </h3>
               <p className="text-gray-600 mb-6">{service.desc}</p>
-              <button className="self-start cursor-pointer px-6 py-2 border border-[#71644D] text-[#71644D] rounded-lg font-semibold hover:bg-[#71644D] hover:text-white transition">
+              <button className="self-start cursor-pointer px-6 py-2 border border-[#C62828] text-[#212121] rounded-lg font-semibold hover:bg-[#FBC02D] hover:text-[#212121] transition">
                 Learn More
               </button>
             </div>
@@ -68,8 +68,8 @@ const ServicesSection = () => {
       </div>
 
       {/* View All Button */}
-      <div className="mt-16 text-center">
-        <button className="px-8 py-3 cursor-pointer border border-[#71644D] text-[#71644D] rounded-lg font-semibold hover:bg-[#71644D] hover:text-white transition">
+      <div className="mt-8 text-center">
+        <button className="px-8 py-3 cursor-pointer border border-[#C62828] text-[#212121] rounded-lg font-semibold hover:bg-[#FBC02D] hover:text-[#212121] transition">
           View All Services
         </button>
       </div>
