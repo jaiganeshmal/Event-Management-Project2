@@ -18,7 +18,7 @@ const SocialGallery = () => {
     <section className="w-full pt-6 bg-white">
       <div className="container mx-auto px-6">
         {/* Image Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {socialLinks.map((item, index) => (
             <a
               key={index}
