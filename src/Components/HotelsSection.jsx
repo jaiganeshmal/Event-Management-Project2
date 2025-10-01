@@ -7,21 +7,21 @@ import "swiper/css/navigation";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const hotels = [
-  { id: 1, name: "One And Only Zabeel", img: assets.image5 },
-  { id: 2, name: "One And Only Royal Mirage", img: assets.image6 },
-  { id: 3, name: "St. Regis The Palm", img: assets.image7 },
-  { id: 4, name: "The Royal Altantis", img: assets.image8 },
-  { id: 5, name: "Raffels Palm", img: assets.image9 },
-  { id: 6, name: "W Palm", img: assets.image10 },
-  { id: 7, name: "Rits Carlton JBR", img: assets.image11 },
-  { id: 8, name: "Four Season's, Jumerirah", img: assets.image12 },
-  { id: 9, name: "Mandrian Jumerirah", img: assets.image13 },
-  { id: 10, name: "Bulgari", img: assets.image14 },
-  { id: 11, name: "Armani DownTown", img: assets.image15 },
-  { id: 12, name: "Waldorf Astria Palm", img: assets.image16 },
-  { id: 13, name: "Ritz Cartlon Rak", img: assets.image17 },
-  { id: 14, name: "Anantara Rak", img: assets.image18 },
-  { id: 15, name: "Waldorf Rak", img: assets.image19 },
+  { id: 1, name: "One And Only Royal Mirage", img: assets.image6 },
+  { id: 2, name: "St. Regis The Palm", img: assets.image7 },
+  { id: 3, name: "The Royal Altantis", img: assets.image8 },
+  { id: 4, name: "Raffels Palm", img: assets.image9 },
+  { id: 5, name: "W Palm", img: assets.image10 },
+  { id: 6, name: "Rits Carlton JBR", img: assets.image11 },
+  { id: 7, name: "Four Season's, Jumerirah", img: assets.image12 },
+  { id: 8, name: "Mandrian Jumerirah", img: assets.image13 },
+  { id: 9, name: "Bulgari", img: assets.image14 },
+  { id: 10, name: "Armani DownTown", img: assets.image15 },
+  { id: 11, name: "Waldorf Astria Palm", img: assets.image16 },
+  { id: 12, name: "Ritz Cartlon Rak", img: assets.image17 },
+  { id: 13, name: "Anantara Rak", img: assets.image18 },
+  { id: 14, name: "Waldorf Rak", img: assets.image19 },
+  { id: 15, name: "One And Only Zabeel", img: assets.image5 }
 ];
 
 const HotelsSection = () => {

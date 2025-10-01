@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
-    <section className="relative h-[90vh] flex items-center justify-center text-center text-white overflow-hidden">
+    <section className="relative h-screen flex items-center justify-center text-center text-white overflow-hidden">
       {/* Background Video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src={assets.hero}   // 🔹 video ka path global.js se
+        src={assets.hero}   
         autoPlay
         muted
         loop
@@ -16,10 +16,10 @@ const HeroSection = () => {
       />
 
       {/* Overlay */}
-      {/* <div className="absolute inset-0 bg-black/40"></div> */}
+      <div className="absolute inset-0 bg-black/50"></div>
 
       {/* Content */}
-      {/* <div className="relative z-10 px-6 max-w-3xl">
+      <div className="relative z-10 px-6 max-w-3xl">
         <h1 className="text-4xl md:text-6xl font-bold mb-6">
           Welcome to <span className="text-yellow-400">UC Events</span>
         </h1>
@@ -40,7 +40,7 @@ const HeroSection = () => {
             Contact Us
           </Link>
         </div>
-      </div> */}
+      </div>
     </section>
   );
 };
