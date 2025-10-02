@@ -36,7 +36,7 @@ const Clients = () => {
               640: { slidesPerView: 3 },
               1024: { slidesPerView: 5 },
             }}
-            className="pb-8" // 👈 padding bottom for dots
+            className="pb-8" 
           >
             {clientLogos.map((logo, index) => (
               <SwiperSlide key={index}>

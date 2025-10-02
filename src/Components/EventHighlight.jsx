@@ -1,5 +1,5 @@
 import React from "react";
-import { FaRegCalendarCheck } from "react-icons/fa"; // calendar icon for "Book Now"
+import { FaRegCalendarCheck } from "react-icons/fa"; 
 
 const EventHighlight = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import { assets } from "../assets/global"; // yahan se hero.mp4 aayegi
+import { assets } from "../assets/global"; 
 import { Link } from "react-router-dom";
 
 const HeroSection = () => {
