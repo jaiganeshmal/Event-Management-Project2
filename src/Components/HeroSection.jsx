@@ -26,10 +26,10 @@ const HeroSection = () => {
         <p className="text-lg md:text-xl mb-8">
           Crafting unforgettable experiences with elegance and precision.
         </p>
-        <div className="flex justify-center gap-4">
+        <div className="flex justify-center items-center gap-4">
           <Link
             to="/services"
-            className="bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-500 transition"
+            className="bg-yellow-400 text-black px-6 px-3 py-3  rounded-lg font-semibold hover:bg-yellow-500 transition"
           >
             Explore Services
           </Link>
