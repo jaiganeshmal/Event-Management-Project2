@@ -66,7 +66,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Hamburger */}
-        <div className="md:hidden text-2xl text-[#71644D] cursor-pointer" onClick={() => setMenuOpen(!menuOpen)}>
+        <div className="md:hidden text-4xl text-[#71644D] cursor-pointer" onClick={() => setMenuOpen(!menuOpen)}>
           {menuOpen ? <HiX /> : <HiMenuAlt3 />}
         </div>
       </div>
