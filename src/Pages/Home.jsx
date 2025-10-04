@@ -8,6 +8,8 @@ import EventHighlight from "../Components/EventHighlight";
 import ContactForm from "../Components/ContactForm";
 import InfoSection from "../Components/InfoSection";
 import Loader from "../Components/Loader"; // ✅ loader component tum already bana chuke ho
+import Achievements from "../Components/Achievements";
+import FaqSection from "../Components/FaqSection";
 
 // 🔹 Lazy imports (sirf heavy sections ko lazy load karna better hai)
 const Testimonials = lazy(() => import("../Components/Testimonials"));
@@ -30,8 +32,9 @@ const Home = () => {
         <Clients />
         <SocialGallery />
       </Suspense>
-
+      <Achievements />
       <ContactForm />
+      <FaqSection />
       <InfoSection />
     </main>
   );
