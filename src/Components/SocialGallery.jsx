@@ -38,7 +38,7 @@ const SocialGallery = () => {
         </div>
 
         {/* Button */}
-        <div className="text-center mt-6">
+        {/* <div className="text-center mt-6">
           <a
             href="https://instagram.com/lilis_events"
             target="_blank"
@@ -49,7 +49,7 @@ const SocialGallery = () => {
             <FaInstagram size={20} />
             Follow on Instagram
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -6,19 +6,19 @@ const services = [
     id: 1,
     title: "Private Events",
     img: assets.image1,
-    desc: "At UC Events, we specialize in creating private events and celebrations tailored to your unique desires. Whether it's a private dinner, an anniversary party, or a chic soirée, we bring your vision to life with meticulous attention to detail. At UC Events, we specialize in creating private events and celebrations tailored to your unique desires. Whether it's a private dinner, an anniversary party, or a chic soirée.",
+    desc: "At UC Events, we specialize in creating private events and celebrations tailored to your unique desires. Whether it's a private dinner, an anniversary party, or a chic soirée, we bring your vision to life with meticulous attention to detail.",
   },
   {
     id: 2,
     title: "Wedding Events",
     img: assets.image2,
-    desc: "Let us curate your dream wedding, where breathtaking venues and personalized vows come together to reflect your unique love story. Our team adds elegance and magic to every moment, ensuring your special day is filled with joy and beauty. At UC Events, we specialize in creating private events and celebrations tailored to your unique desires. Whether it's a private dinner, an anniversary party, or a chic soirée.",
+    desc: "Let us curate your dream wedding, where breathtaking venues and personalized vows come together to reflect your unique love story. Our team adds elegance and magic to every moment, ensuring your special day is filled with joy and beauty.",
   },
   {
     id: 3,
     title: "Corporate Events",
     img: assets.image3,
-    desc: "Take your corporate events to the highest levels with UC Events. From impactful conferences to luxurious gala evenings, we merge creativity with professionalism to deliver an unforgettable experience. At UC Events, we specialize in creating private events and celebrations tailored to your unique desires. Whether it's a private dinner, an anniversary party, or a chic soirée ",
+    desc: "Take your corporate events to the highest levels with UC Events. From impactful conferences to luxurious gala evenings, we merge creativity with professionalism to deliver an unforgettable experience.",
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ const ServicesSection = () => {
             className="flex flex-col md:flex-row bg-white rounded-xl shadow-md overflow-hidden"
           >
             {/* Left - Image */}
-            <div className="md:w-1/2 h-60 md:h-auto">
+            <div className="md:w-1/2 h-60 md:h-96 ">
               <img
                 src={service.img}
                 alt={service.title}
@@ -59,7 +59,7 @@ const ServicesSection = () => {
                 {service.title}
               </h3>
               <p className="text-gray-600 mb-6">{service.desc}</p>
-              <button className="self-start cursor-pointer px-6 py-2 bg-[#C62828] text-white rounded-lg font-semibold hover:bg-[#FBC02D] hover:text-white transition">
+              <button className="self-start cursor-pointer px-4 py-2 text-sm bg-[#C62828] text-white rounded-lg font-semibold hover:bg-[#FBC02D] hover:text-white transition">
                 Learn More
               </button>
             </div>

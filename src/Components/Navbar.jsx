@@ -9,18 +9,15 @@ const Navbar = () => {
 
   const navLinks = [
     { name: "Home", path: "/" },
-    { name: "About Us", path: "/about" },
     { name: "Services", path: "/services" },
-    { name: "Projects", path: "/projects" },
     { name: "Gallery", path: "/gallery" },
-    { name: "Blogs", path: "/blogs" },
     { name: "Contact Us", path: "/contact" },
   ];
 
   // fixed top-0 left-0 z-50
   return (
     <nav className="w-full bg-white shadow-md">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 py-2 flex items-center justify-between">
         {/* Logo */}
         <div>
           <img
@@ -32,13 +29,13 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Links */}
-        <ul className="hidden md:flex space-x-8 text-[#212121] font-medium">
+        <ul className="hidden md:flex space-x-8 text-[#212121] font-medium pr-10">
           {navLinks.map((link) => (
             <li key={link.name}>
               <NavLink
                 to={link.path}
                 className={({ isActive }) =>
-                  `transition cursor-pointer ${
+                  `transition cursor-pointer  ${
                     isActive ? "font-semibold text-black" : "font-normal"
                   }`
                 }
@@ -49,21 +46,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        {/* Desktop Social Icons */}
-        <div className="hidden md:flex space-x-4 text-[#C62828] text-lg">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition">
-            <FaFacebookF />
-          </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition">
-            <FaInstagram />
-          </a>
-          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition">
-            <FaYoutube />
-          </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition">
-            <FaLinkedinIn />
-          </a>
-        </div>
+       
 
         {/* Mobile Hamburger */}
         <div className="md:hidden text-4xl text-[#71644D] cursor-pointer" onClick={() => setMenuOpen(!menuOpen)}>
@@ -92,21 +75,7 @@ const Navbar = () => {
             ))}
           </ul>
 
-          {/* Socials on Mobile */}
-          <div className="flex space-x-4 pt-4 text-[#71644D] text-lg">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-              <FaFacebookF />
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-              <FaInstagram />
-            </a>
-            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
-              <FaYoutube />
-            </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-              <FaLinkedinIn />
-            </a>
-          </div>
+         
         </div>
       )}
     </nav>

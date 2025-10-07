@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 @import "tailwindcss";
 
 * {
-  font-family:  "Lora", serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .custom-pagination {
@@ -44,4 +44,25 @@
 .swiper-pagination-bullet-active {
   opacity: 1;
   transform: scale(1.2);
+}
+
+
+
+
+
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  width: calc(200%); /* doubled content for smooth loop */
+  animation: scroll 10s linear infinite;
 }

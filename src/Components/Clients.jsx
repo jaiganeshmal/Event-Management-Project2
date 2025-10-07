@@ -1,8 +1,4 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/pagination";
 import { assets } from "../assets/global";
 
 const clientLogos = [
@@ -16,41 +12,28 @@ const clientLogos = [
 
 const Clients = () => {
   return (
-    <section className="w-full py-8 bg-white">
+    <section className="w-full py-16 bg-white overflow-hidden">
       <div className="container mx-auto px-6 text-center">
         {/* Heading */}
-        <h2 className="text-4xl font-bold mb-6" style={{ color: "#212121" }}>
+        <h2 className="text-4xl font-bold mb-10" style={{ color: "#212121" }}>
           Our Clients
         </h2>
 
-        {/* Swiper Wrapper with extra padding for dots */}
-        <div className="relative">
-          <Swiper
-            modules={[Autoplay, Pagination]}
-            autoplay={{ delay: 2000, disableOnInteraction: false }}
-            pagination={{ clickable: true }}
-            loop={true}
-            spaceBetween={30}
-            breakpoints={{
-              320: { slidesPerView: 2 },
-              640: { slidesPerView: 3 },
-              1024: { slidesPerView: 5 },
-            }}
-            className="pb-8" 
-          >
-            {clientLogos.map((logo, index) => (
-              <SwiperSlide key={index}>
-                <div className="flex items-center justify-center h-28 mb-10">
-                  <img
-                    src={logo}
-                    alt={`Client ${index + 1}`}
-                    loading="lazy"
-                    className="max-h-full max-w-[150px] object-contain grayscale hover:grayscale-0 transition-all duration-300"
-                  />
-                </div>
-              </SwiperSlide>
+        {/* Infinite Scroll Wrapper */}
+        <div className="relative w-full overflow-hidden">
+          <div className="flex animate-scroll gap-12">
+            {/* Duplicate logos twice for seamless loop */}
+            {[...clientLogos, ...clientLogos].map((logo, index) => (
+              <div key={index} className="flex items-center justify-center min-w-[160px] h-28">
+                <img
+                  src={logo}
+                  alt={`Client ${index + 1}`}
+                  loading="lazy"
+                  className="max-h-full max-w-[150px] object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                />
+              </div>
             ))}
-          </Swiper>
+          </div>
         </div>
       </div>
     </section>

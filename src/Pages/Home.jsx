@@ -20,20 +20,20 @@ const Home = () => {
   return (
     <main>
       <HeroSection />
-      <AboutSection />
+      {/* <AboutSection /> */}
       <ServicesSection />
-      <HotelsSection />
-      <FullBanner />
-      <EventHighlight />
+      {/* <HotelsSection /> */}
+      {/* <FullBanner /> */}
+      {/* <EventHighlight /> */}
 
       {/* ✅ Suspense wrapper with Loader */}
       <Suspense fallback={<Loader />}>
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Clients />
         <SocialGallery />
       </Suspense>
       <Achievements />
-      <ContactForm />
+      {/* <ContactForm /> */}
       <FaqSection />
       <InfoSection />
     </main>

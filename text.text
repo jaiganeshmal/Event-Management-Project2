@@ -1,20 +1,48 @@
-abhi me bna rha hu event managment ki website REact or taiwlind css ky sath filhal abhi me first home page ready kr rha hu component wise sub se pehly navbar component jes me logo hoga left side jo asests me globaljs ki file hogi us me [asests] name ka object hoga us me se logo name hoga image ka usky bad navlinks honge [home, about ua, services, projects, hallery, blogs, contact us] mid me or color [#71644D] ya hoga or jes pe click krengy wo thora bold ho jay ga usky bad right side social react-icons se arhy  honge bs ab bnao acha ui ky sath
-phr next hero component jes me background me ek mute video autoplay chal rhu hoge jo global js se arhi honge or us video ka name hero hoga bs ab bnao acha ui ky sath
-ab next component jes me first heading hogi [About Lili's Events] ya wali usky bad esky nichy ek or heading hogi [Event Management Company in Dubai] in dono ka color [#71644D] ya hoga phr esky nichy paragraph hoga [Lilis Events epitomizes the art of crafting unforgettable moments with sophistication and precision. As a renowned event management company in Dubai, our unwavering commitment to excellence drives everything we do. We specialize in curating bespoke experiences that exceed expectations, particularly in the realm of dreamy weddings. Beyond weddings, we bring joy and elegance to corporate gatherings and all cherished celebrations, infusing each occasion with our signature attention to detail and heartfelt dedication.] ya wala phr esky nichy ek btn hoga name [about us ] hoga or es btn ky border color [#71644D] ya hoga or background color transparent hoga bs ab bnao acha ui ky sath
- phr next component jes me sub se pehly heading [Our Services] ya wali or color [#71644D] ya hoga esky bad ek div hoga jes me 4 card boxes honge sub card boxes me left  side image hogi jo global js se arhi hogi image1 se  image 4 tak usky bad right side me oehly heading hogi sub me  [Private Events, Wedding Events, Corporate Events, Birthday Parties] ya wali or color[#71644D] ya hoga sub text ka esky bad esky nichy ek paragraph hoga sub me [At Liliis Events, we specialize in creating private events and celebrations tailored to your unique desires. Whether it's a private dinner, an anniversary party, or a chic soirée, we bring your vision to life with meticulous attention to detail., Let us curate your dream wedding, where breathtaking venues and personalized vows come together to reflect your unique love story. Our team adds elegance and magic to every moment, ensuring your special day is filled with joy and beauty., Take your corporate events to the highest levels with Lilis Events. From conferences that are sure to be impactful and productive to luxurious gala evenings that truly feel royal, we always find ways to merge creativity with professionalism to deliver a breathtaking event experience., Make every birthday a celebration to remember with Liliis Events. From themed extravaganzas to intimate gatherings, our creative touch brings joy and excitement to every moment tailored to your preferences.] ya wala or esky nichy btn hoga sub me or or text[Book Now ] ya hoga or background bnt ka transparent hoga or border [#71644D] ya hoga main div jo card boxes ka ha usky andr card boxes ky nichy ek btn hoga [View All Services] es name ka jeski design same hoga bs ab bnao acha ui ky sath
-  phr next component jes me pehly heading hogi [Hotel We Work With] ya wali pure component me text ka color ya [#71644D] hoga phr heading ky nichy ek slider hoga jo react swiper bnay jes me cards honge har cards me pehly image hoge jo globaljs se arhi honge image5 se image20 tak usky bad sub ky nichy ek title hoga [one and only zabeel, one and only royal miraj, st.reges the palm, the royal atlantis, raffles palm, w palm, rits carlton jbr, four seasons jumerirah, mandrian jumeriah, bulgari, armani downtown, waldorf astria palm, ritz carlton rak, anantara rak, waldorf rak] ya wala ohr esky nichy sub me btn [book now ] ya wala hoga same design btn ka slider se me left or right arrows honge jinky background ka color[#71644D] ya hoga bs ab bnao acha ui ky sath
-  
- phr next component jes me widt-full or height=100vh us me sirf background me image hogi jo globaljs se arhi hogi image16 bs ab bnao acha ui ky sath
- 
- phr next component jes mesub text ka color[#71644D] ya hoga phr es component me pehly heading hogi [Elevate Your Events with Lilis!] phr esky nichy paragraph hoga [Experience inspiration and excitement with Lilis Events, the top event management company in Dubai. We specialize in bringing sophistication and expertise to every occasion, ensuring a breathtaking and unforgettable experience. Let’s turn your ordinary event into something truly extraordinary!] ya wala phr esky nichy same design ka btn hoga [book now with icon] es name ka hoga bs ab bnao acha ui ky sath
- 
-  phr next component jes me sub text white color ka hoga or main div me ek background image hoge jo global se arhi hogi image17 wali jesky andr slider hoga autoplay or dots ky sath or arrows mat lgna or es slider me card boxes arhi honge background transparent hoga or sub me card boxes me pehly paragraph hoga [Liliis Events turned our dream wedding into a fairytale reality! From the breathtaking venue to the smallest details, they infused elegance and magic into every moment. Our special day was truly unforgettable, thanks to their exceptional team!, Working with Liliis Events was a game-changer for our corporate gathering. Their innovative approach and meticulous planning ensured a seamless and sophisticated event that left a lasting impression on our clients and colleagues. I highly recommend their services!, Liliis Events made my birthday celebration truly special! They personalized every detail, turning my vision into a joyful reality. From the themed décor to the intimate atmosphere, they crafted moments that I'll cherish forever. Thank you for making my day unforgettable!, Liliis Events orchestrated a magical engagement party that exceeded all expectations! From the warm setting to the grand gestures, they captured the essence of our love story perfectly. It was a moment we'll treasure for a lifetime, thanks to their expertise and dedication., Liliis Events helped us rekindle our love story with a premium anniversary celebration. They added a touch of elegance and sentiment to every detail, ensuring our special day was a reflection of enduring love and cherished memories. We couldn't be happier with the experience they provided!, he decorations by Lili's Events were absolutely breathtaking! From the elegant centerpieces to the intricate table settings, every detail was meticulously crafted. It transformed the venue into a fairytale setting, and we couldn't have been happier!, Lili's Events did an incredible job with the decorations for my birthday party! The theme was brought to life with vibrant colors, beautiful balloons, and creative signage. It truly set the perfect atmosphere for a memorable celebration., Lili's Events nailed it with the decorations for my bridal shower! The floral arrangements were stunning, and the overall aesthetic was exactly what I had envisioned. It added a touch of elegance and charm to the event that was simply magical., The decorations by Lili's Events brought the holiday spirit to life at our party! From the festive lighting to the cozy winter-themed decor, it created a warm and inviting atmosphere that had everyone in high spirits. Truly top-notch work! ] phr esky nichy sub me ek title hoga [sarah and john, mark, emily, david, aisha and ahmed, jessica lee, michael nguyen, anna patel, david thompson] ya wala phr esky nichy text hoga sub me [wedding celebration, corporate event organizer, birthday celebration client, engagement party host, anniversary celebration,] ya wala bs ab bnao acha ui ky sath
-  
-   phr esky bad next component jes me pehly heading hogi [Our Clients] or ya color [#71644D] ya hoga phr esky nichy autoplay with dots wala slider hoga jes har card me just logo imag hogi jo global js se arhi hogi image18 se image30 tak bs ab bnao acha ui ky sath
+import React from "react";
+import { assets } from "../assets/global"; 
+import { Link } from "react-router-dom";
 
- phr next component jes me sub text ka color[#71644D] ya hoga or phr es me pehly heading hogi [Get in Touch to Plan Your Next Event!] ya wali phr phr esky nicy form hoga jes me first row me 3 inputs honge [name, phone, location] ya waly phr second row me 2 inputs honge [number of guests, data] ya waly or sub input border or placeholder text ka color[#71644D] ya hoga phr esky nichy ek bnt hoga same design ka name [submit] hoga btn ka bs ab bnao acha ui ky sath
- 
-  phr esky next component jes me cards honge or sub me just image hoge jo global js se arhi hogi image31 se 38 tak phr har card ek link hoga jes pe click kro us us scocial mieda accrount per chla jay or in cards div ky nichy main div me ek btn hoga [first icon with follow on instagram] es name ka bs ab bnao acha ui ky sath
-  
-   phr next component jes me top or bottom se border arha hoga color border ka [#71644D] ya hoga es ky andr heading hogi [Event Management Company in Dubai | Wedding Planner in Dubai | Corporate Event Company in Dubai] ya wali or eska color text ka [#71644D] ya hoga bs ab bnao acha ui ky sath
-    phr  next footer component hoga jes me pehly col me logo jo global js arhi hoge logo phr esky nichy ek text hoga [Offering the best event management services in UAE.] ya wala or next col me pehly heading hogi [quick links] ya wali phr esky nichy  navlinks honge [Home, About Us, Services, Projects, Gallery, Blogs, Contact Us] ya waly phr next col me pehly heading hogi [contact] es ki phr esky nichy [Marina Plaza, Dubai United, Arab Emirates, T: +971 502955667, E: lilisevent@gmail.com] ya hoga phr next col me pehly heading hogi [Follow us] phr esky nichy react icons honge social media ky [facebook, instagram, youtube, linkedin, location] ya waly phr esky nichy text hoga [© Copyright Lilis Events 2025] ya wala bs ab bnao
+const HeroSection = () => {
+  return (
+    <section className="relative h-screen flex items-center justify-center text-center text-white overflow-hidden">
+      {/* Background Video */}
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover"
+        src={assets.hero}   
+        autoPlay
+        muted
+        loop
+        playsInline
+      />
+
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/50"></div>
+
+      {/* Content */}
+      <div className="relative z-10 px-6 max-w-3xl">
+        <h1 className="text-4xl md:text-6xl font-bold mb-6">
+          Welcome to <span className="text-yellow-400">UC Events</span>
+        </h1>
+        <p className="text-lg md:text-xl mb-8">
+          Crafting unforgettable experiences with elegance and precision.
+        </p>
+        <div className="flex justify-center items-center gap-4">
+          <Link
+            to="/services"
+            className="bg-yellow-400 text-black md:px-6 px-3 py-3  rounded-lg font-semibold hover:bg-yellow-500 transition"
+          >
+            Explore Services
+          </Link>
+          <Link
+            to="/contact"
+            className="border border-yellow-400 px-6 py-3 rounded-lg font-semibold hover:bg-yellow-400 hover:text-black transition"
+          >
+            Contact Us
+          </Link>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default HeroSection;
