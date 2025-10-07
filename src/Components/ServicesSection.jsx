@@ -37,7 +37,7 @@ const ServicesSection = () => {
       </h2>
 
       {/* Grid - 2 Cards per Row */}
-      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-4 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-4 max-w-7xl mx-auto">
         {services.map((service) => (
           <div
             key={service.id}
