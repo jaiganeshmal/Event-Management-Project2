@@ -20,7 +20,7 @@ const HeroSection = () => {
        top-0 left-0 w-full h-full bg-black/10"></div>
 
       {/* Form Section */}
-      <div className=" relative z-10 w-[60%] md:w-[320px] bg-white/80 rounded-2xl shadow-xl p-8 md:mr-6 md:ml-auto mx-auto md:mb-0 mb-10 ">
+      <div className=" relative z-10 w-[80%] md:w-[320px] bg-white/80 rounded-2xl shadow-xl p-8 md:mr-6 md:ml-auto mx-auto md:mb-10 mb-0 ">
         <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">
           Book Your Event
         </h2>
@@ -77,8 +77,8 @@ const HeroSection = () => {
         </form>
       </div>
       {/* Bottom Section */}
-      <div className="absolute bottom-1 left-1/2 -translate-x-1/2 text-white z-10 w-full px-4">
-        <div className="flex flex-row md:items-center md:justify-center gap-8 md:gap-16">
+      <div className="hidden md:block absolute bottom-1 left-1/2 -translate-x-1/2 text-white z-10 w-full px-4">
+        <div className="flex flex-col lg:items-center md:items-start pl-10 md:justify-center  gap-4 ">
 
           {/* Column 1 */}
           <div className="flex flex-col items-center gap-2">
