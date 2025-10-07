@@ -15,7 +15,7 @@ const socialLinks = [
 
 const SocialGallery = () => {
   return (
-    <section className="w-full pt-6 bg-white">
+    <section className="w-full pt-4 bg-white">
       <div className="container mx-auto px-6">
         {/* Image Grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">

@@ -12,7 +12,7 @@ const clientLogos = [
 
 const Clients = () => {
   return (
-    <section className="w-full py-16 bg-white overflow-hidden">
+    <section className="w-full py-8 bg-white overflow-hidden">
       <div className="container mx-auto px-6 text-center">
         {/* Heading */}
         <h2 className="text-4xl font-bold mb-10" style={{ color: "#212121" }}>

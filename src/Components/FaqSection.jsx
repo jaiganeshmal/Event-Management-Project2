@@ -39,7 +39,7 @@ const FaqSection = () => {
           As a leading choice in Pakistan. We strictly make sure every details
           exceeds your expectations.
         </p>
-        <button className="w-fit bg-[#C62828] text-white px-6 py-3 rounded-lg shadow-md  transition-all duration-300">
+        <button className="w-fit bg-[#C62828] text-white px-4 py-2 rounded-lg shadow-md  transition-all duration-300">
           Get Your Quote
         </button>
       </div>

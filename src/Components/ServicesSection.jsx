@@ -59,7 +59,7 @@ const ServicesSection = () => {
                 {service.title}
               </h3>
               <p className="text-gray-600 mb-6">{service.desc}</p>
-              <button className="self-start cursor-pointer px-4 py-2 text-sm bg-[#C62828] text-white rounded-lg font-semibold hover:bg-[#FBC02D] hover:text-white transition">
+              <button className="self-start cursor-pointer px-3 py-2  text-sm bg-[#C62828] text-white rounded-lg font-semibold hover:bg-[#FBC02D] hover:text-white transition">
                 Learn More
               </button>
             </div>

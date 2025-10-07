@@ -13,7 +13,7 @@ const stats = [
 const Achievements = () => {
     return (
         <div
-            className="relative w-[90%] mx-auto py-12 px-6 md:px-12 mt-10 rounded-2xl bg-cover bg-center text-white"
+            className="relative w-[96%] mx-auto py-12 px-6 md:px-12 mt-10 rounded-2xl bg-cover bg-center text-white"
             style={{ backgroundImage: `url(${assets.image21})` }}
         >
 
@@ -28,7 +28,7 @@ const Achievements = () => {
                         ordinary gatherings into extraordinary experiences as UAE’s trusted
                         event planners.
                     </p>
-                    <button className="relative overflow-hidden border border-[#C62828] bg-[#C62828] text-white cursor-pointer px-8 py-3 rounded-lg font-semibold shadow-lg transition-all duration-500 ">
+                    <button className="relative overflow-hidden border border-[#C62828] bg-[#C62828] text-white cursor-pointer px-6 py-3 rounded-lg font-semibold shadow-lg transition-all duration-500 ">
                         Schedule a Call
                     </button>
                 </div>
