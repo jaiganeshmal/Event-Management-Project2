@@ -32,7 +32,7 @@ const ServicesSection = () => {
   return (
     <section className="p-8 bg-gray-50">
       {/* Heading */}
-      <h2 className="text-3xl md:text-4xl font-bold text-[#212121] text-center mb-8">
+      <h2 className="text-3xl md:text-4xl font-bold text-[#212121] text-center mb-4">
         Our Services
       </h2>
 

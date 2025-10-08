@@ -7,7 +7,7 @@ const HeroSection = () => {
     <div className="relative w-full h-[85vh] flex items-center justify-between overflow-hidden ">
       {/* Background Video */}
       <video
-        src={assets.hero} // 🔹 apna video yahan dalna
+        src={assets.hero} 
         autoPlay
         muted
         loop
@@ -20,7 +20,7 @@ const HeroSection = () => {
        top-0 left-0 w-full h-full bg-black/10"></div>
 
       {/* Form Section */}
-      <div className=" relative z-10 w-[80%] md:w-[320px] bg-white/80 rounded-2xl shadow-xl p-8 md:mr-6 md:ml-auto mx-auto md:mb-10 mb-0 ">
+      <div className=" relative z-10 w-[80%] md:w-[320px] bg-white/80 rounded-2xl shadow-xl p-8 md:mr-6 md:ml-auto mx-auto ">
         <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">
           Book Your Event
         </h2>
