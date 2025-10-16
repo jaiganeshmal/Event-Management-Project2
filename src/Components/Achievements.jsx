@@ -19,7 +19,7 @@ const Achievements = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
                 {/* Left Content */}
-                <div className="sticky top-28 space-y-6">
+                <div className=" space-y-6">
                     <h2 className="text-3xl md:text-4xl font-bold text-yellow-400">
                         Our Achievements
                     </h2>
