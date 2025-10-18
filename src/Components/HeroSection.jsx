@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaFacebookF, FaInstagram, FaYoutube, FaLinkedinIn } from "react-icons/fa";
 import { assets } from "../assets/global";
+import toast from "react-hot-toast"; // ✅ Import toast
 
 const HeroSection = () => {
   const [formData, setFormData] = useState({
@@ -21,13 +22,13 @@ const HeroSection = () => {
 
     const { name, phone, eventType } = formData;
 
+    // ✅ Validation with toast instead of alert
     if (!name || !phone) {
-      alert("Please fill all fields before sending!");
+      toast.error("⚠️ Please fill all fields before sending!");
       return;
     }
 
-    // ✅ WhatsApp setup
-    const phoneNumber = "923009296413";
+    const phoneNumber = "923222002791"; // 👈 apna WhatsApp number
     const message = `Hello! I would like to book an event.%0A
 Name: ${name}%0A
 Phone: ${phone}%0A
@@ -37,6 +38,9 @@ Event Type: ${eventType}`;
 
     // ✅ Open WhatsApp
     window.open(whatsappURL, "_blank");
+
+    // ✅ Success toast
+    toast.success("✅ Message sent successfully!");
 
     // ✅ Reset form after sending
     setFormData({
@@ -107,7 +111,7 @@ Event Type: ${eventType}`;
               id="eventType"
               value={formData.eventType}
               onChange={handleChange}
-              className="mt-1 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500cursor-pointer"
+              className="mt-1 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer"
             >
               <option>Corporate Events</option>
               <option>Wedding Events</option>
@@ -127,10 +131,9 @@ Event Type: ${eventType}`;
         </form>
       </div>
 
-      {/* Bottom Section */}
+      {/* Bottom Section (unchanged) */}
       <div className="hidden md:block absolute bottom-1 left-1/2 -translate-x-1/2 text-white z-10 w-full px-4">
         <div className="flex flex-col lg:items-center md:items-start pl-10 md:justify-center gap-4">
-          {/* Column 1 */}
           <div className="flex flex-col items-center gap-2">
             <div className="flex gap-4 sm:gap-6">
               {[FaFacebookF, FaInstagram, FaYoutube, FaLinkedinIn].map((Icon, i) => (
@@ -148,7 +151,6 @@ Event Type: ${eventType}`;
             </p>
           </div>
 
-          {/* Column 2 */}
           <div className="flex flex-col items-center gap-2">
             <div className="flex gap-4 sm:gap-6">
               {[FaFacebookF, FaInstagram, FaYoutube, FaLinkedinIn].map((Icon, i) => (
