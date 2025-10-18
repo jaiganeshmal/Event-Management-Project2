@@ -36,10 +36,26 @@ const App = () => {
       </Suspense>
 
       <Footer />
-      {/* ✅ Toast Provider (works globally) */}
       <Toaster
         position="top-right"
+        toastOptions={{
+          duration: 1500, // ✅ Toast auto-close time (1.5 seconds)
+          style: {
+            background: "#333",
+            color: "#fff",
+            borderRadius: "8px",
+            padding: "20px 16px",
+            fontSize: "14px",
+          },
+          success: {
+            style: { background: "#1E2939" }, // green success
+          },
+          error: {
+            style: { background: "#1E2939" }, // red error
+          },
+        }}
       />
+
     </BrowserRouter>
   );
 };
