@@ -30,7 +30,7 @@ const HeroSection = () => {
     }
 
     // ✅ WhatsApp message setup
-    const phoneNumber = "923180392600"; // 👈 apna WhatsApp number (with country code)
+    const phoneNumber = "923009296413"; // 👈 apna WhatsApp number (with country code)
     const message = `Hello! I would like to book an event.%0A
 Name: ${name}%0A
 Phone: ${phone}%0A
