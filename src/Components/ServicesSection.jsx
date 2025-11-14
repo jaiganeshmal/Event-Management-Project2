@@ -49,7 +49,7 @@ const ServicesSection = () => {
                 src={service.img}
                 alt={service.title}
                 loading="lazy"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover hover:scale-105 transition-all duration-500"
               />
             </div>
 

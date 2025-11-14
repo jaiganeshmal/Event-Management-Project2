@@ -2,8 +2,8 @@ import React from "react";
 import { assets } from "../assets/global";
 
 const stats = [
-    { icon: assets.image52, title: "7+", text: "Years of Experience" },
-    { icon: assets.image54, title: "1600+", text: "Projects Completed" },
+    { icon: assets.image52, title: "20+", text: "Years of Experience" },
+    { icon: assets.image54, title: "5600+", text: "Projects Completed" },
     { icon: assets.image53, title: "100%", text: "Client Satisfaction" },
     { icon: assets.image54, title: "200+", text: "Events / Year" },
     { icon: assets.image55, title: "#1", text: "Ranking On Google" },
