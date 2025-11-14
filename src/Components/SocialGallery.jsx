@@ -3,14 +3,14 @@ import { assets } from "../assets/global";
 import { FaInstagram } from "react-icons/fa";
 
 const socialLinks = [
-  { img: assets.image28, url: "https://instagram.com" },
+  { img: assets.image28, url: "https://www.instagram.com/p/DQ60D-XiOme/?igsh=eXBrNXJ0NWZhZXU4" },
   { img: assets.image29, url: "https://www.instagram.com/reel/DNP9c70oVLr/?igsh=MWs3MTFseHdlNzl5ZA==" },
-  { img: assets.image30, url: "https://instagram.com" },
-  { img: assets.image31, url: "https://instagram.com" },
-  { img: assets.image32, url: "https://www.instagram.com/reel/DMapxaUo1_M/?igsh=dnE5aHM2NXNiYXVt" },
-  { img: assets.image33, url: "https://instagram.com" },
+  { img: assets.image30, url: "https://www.instagram.com/unitedcatering_ucpakistan/" },
+  { img: assets.image31, url: "https://www.instagram.com/p/DRABZ9riCbg/?igsh=aDI0NnZlYzRhejBo" },
+  { img: assets.image32, url: "https://www.instagram.com/reel/DOLMjhnCIRw/?igsh=amtrZzZyZTZqaDBn" },
+  { img: assets.image33, url: "https://www.instagram.com/p/DQ6zpn8iGTQ/?igsh=emczcWNsZXZsMnBr" },
   { img: assets.image34, url: "https://www.instagram.com/reel/DMcnuh1I1jG/?igsh=MWJ5dXVkZnUwaDZubg%3D%3D" },
-  { img: assets.image35, url: "https://instagram.com" },
+  { img: assets.image35, url: "https://www.instagram.com/reel/DMapxaUo1_M/?igsh=dnE5aHM2NXNiYXVt" },
 ];
 
 const SocialGallery = () => {

@@ -8,6 +8,17 @@ const clientLogos = [
   assets.image25,
   assets.image26,
   assets.image27,
+  assets.image57,
+  assets.image58,
+  assets.image59,
+  assets.image60,
+  assets.image61,
+  assets.image62,
+  assets.image63,
+  assets.image64,
+  assets.image65,
+  assets.image66,
+  assets.image67,
 ];
 
 const Clients = () => {
@@ -29,7 +40,8 @@ const Clients = () => {
                   src={logo}
                   alt={`Client ${index + 1}`}
                   loading="lazy"
-                  className="max-h-full max-w-[150px] object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                  className="max-h-full max-w-[150px] object-cover transition-all duration-300"
+                  // grayscale hover:grayscale-0 
                 />
               </div>
             ))}

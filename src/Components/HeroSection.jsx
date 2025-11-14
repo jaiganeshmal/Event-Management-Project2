@@ -151,10 +151,9 @@ Event Type: ${eventType}`;
       </div>
 
       {/* ✅ Bottom Section (Corporate with mapped links) */}
-      <div className="hidden md:block absolute bottom-1 left-1/2 -translate-x-1/2 text-white z-10 w-full px-4">
+      <div className="hidden md:block absolute bottom-6 left-1/2 -translate-x-1/2 text-white z-10 w-full px-4">
         <div className="flex flex-col lg:items-center md:items-start pl-16 md:justify-center gap-4">
-          <div className="flex flex-col items-center gap-2">
-            <div className="flex gap-4 sm:gap-6">
+          <div className="flex items-center gap-4">
               {socialLinks.map(({ name, icon: Icon, href }) => (
                 <a
                   key={name}
@@ -166,11 +165,6 @@ Event Type: ${eventType}`;
                   <Icon />
                 </a>
               ))}
-            </div>
-
-            <p className="uppercase tracking-widest font-semibold text-sm sm:text-lg">
-              Corporate
-            </p>
           </div>
         </div>
       </div>
