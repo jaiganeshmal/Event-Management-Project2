@@ -4,12 +4,12 @@ import { FaInstagram } from "react-icons/fa";
 
 const socialLinks = [
   { img: assets.image28, url: "https://instagram.com" },
-  { img: assets.image29, url: "https://instagram.com" },
+  { img: assets.image29, url: "https://www.instagram.com/reel/DNP9c70oVLr/?igsh=MWs3MTFseHdlNzl5ZA==" },
   { img: assets.image30, url: "https://instagram.com" },
   { img: assets.image31, url: "https://instagram.com" },
-  { img: assets.image32, url: "https://instagram.com" },
+  { img: assets.image32, url: "https://www.instagram.com/reel/DMapxaUo1_M/?igsh=dnE5aHM2NXNiYXVt" },
   { img: assets.image33, url: "https://instagram.com" },
-  { img: assets.image34, url: "https://instagram.com" },
+  { img: assets.image34, url: "https://www.instagram.com/reel/DMcnuh1I1jG/?igsh=MWJ5dXVkZnUwaDZubg%3D%3D" },
   { img: assets.image35, url: "https://instagram.com" },
 ];
 

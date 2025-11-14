@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaFacebookF, FaInstagram, FaYoutube, FaLinkedinIn } from "react-icons/fa";
 import { assets } from "../assets/global";
-import toast from "react-hot-toast"; // ✅ Import toast
+import toast from "react-hot-toast";
 
 const HeroSection = () => {
   const [formData, setFormData] = useState({
@@ -9,6 +9,30 @@ const HeroSection = () => {
     phone: "",
     eventType: "Corporate Events",
   });
+
+  // ✅ Social Links Array (mapped in bottom section)
+  const socialLinks = [
+    {
+      name: "Facebook",
+      icon: FaFacebookF,
+      href: "https://www.facebook.com/UnitedCatering/",
+    },
+    {
+      name: "Instagram",
+      icon: FaInstagram,
+      href: "https://www.instagram.com/unitedcatering_ucpakistan/",
+    },
+    {
+      name: "YouTube",
+      icon: FaYoutube,
+      href: "https://www.youtube.com/@ucpakistanofficial951",
+    },
+    {
+      name: "LinkedIn",
+      icon: FaLinkedinIn,
+      href: "https://www.linkedin.com/company/uc-pakistan",
+    },
+  ];
 
   const handleChange = (e) => {
     setFormData({
@@ -22,27 +46,22 @@ const HeroSection = () => {
 
     const { name, phone, eventType } = formData;
 
-    // ✅ Validation with toast instead of alert
     if (!name || !phone) {
       toast.error("⚠️ Please fill all fields before sending!");
       return;
     }
 
-    const phoneNumber = "923222002791"; // 👈 apna WhatsApp number
+    const phoneNumber = "923008214407"; // 👈 Your WhatsApp number
     const message = `Hello! I would like to book an event.%0A
 Name: ${name}%0A
 Phone: ${phone}%0A
 Event Type: ${eventType}`;
 
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`;
-
-    // ✅ Open WhatsApp
     window.open(whatsappURL, "_blank");
 
-    // ✅ Success toast
     toast.success("✅ Message sent successfully!");
 
-    // ✅ Reset form after sending
     setFormData({
       name: "",
       phone: "",
@@ -131,40 +150,26 @@ Event Type: ${eventType}`;
         </form>
       </div>
 
-      {/* Bottom Section (unchanged) */}
+      {/* ✅ Bottom Section (Corporate with mapped links) */}
       <div className="hidden md:block absolute bottom-1 left-1/2 -translate-x-1/2 text-white z-10 w-full px-4">
-        <div className="flex flex-col lg:items-center md:items-start pl-10 md:justify-center gap-4">
+        <div className="flex flex-col lg:items-center md:items-start pl-16 md:justify-center gap-4">
           <div className="flex flex-col items-center gap-2">
             <div className="flex gap-4 sm:gap-6">
-              {[FaFacebookF, FaInstagram, FaYoutube, FaLinkedinIn].map((Icon, i) => (
+              {socialLinks.map(({ name, icon: Icon, href }) => (
                 <a
-                  key={i}
-                  href="#"
-                  className="w-10 h-10 flex items-center justify-center rounded-full bg-[#C62828] text-white hover:bg-[#FBC02D] transition shadow-md"
+                  key={name}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 flex items-center justify-center rounded-full bg-[#C62828] text-white hover:bg-[#FBC02D] hover:scale-110 transition-all shadow-md"
                 >
                   <Icon />
                 </a>
               ))}
             </div>
+
             <p className="uppercase tracking-widest font-semibold text-sm sm:text-lg">
               Corporate
-            </p>
-          </div>
-
-          <div className="flex flex-col items-center gap-2">
-            <div className="flex gap-4 sm:gap-6">
-              {[FaFacebookF, FaInstagram, FaYoutube, FaLinkedinIn].map((Icon, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  className="w-10 h-10 flex items-center justify-center rounded-full bg-[#C62828] text-white hover:bg-[#FBC02D] transition shadow-md"
-                >
-                  <Icon />
-                </a>
-              ))}
-            </div>
-            <p className="uppercase tracking-widest font-semibold text-sm sm:text-lg">
-              Personalize
             </p>
           </div>
         </div>
