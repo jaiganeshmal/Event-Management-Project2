@@ -48,7 +48,7 @@ const Footer = () => {
         {/* Col 3 - Contact */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Contact</h3>
-          <p className="text-sm mb-2">Marina Plaza, Pakistan United, Arab Emirates</p>
+          <p className="text-sm mb-2">SA 22, Cutchi Memon Cooperative Housing Society Khokan CHS, Karachi</p>
           <p className="text-sm mb-2">T: +92 300 8214407 </p>
           <p className="text-sm">E: infoevent@gmail.com</p>
         </div>

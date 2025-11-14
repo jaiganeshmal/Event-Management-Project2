@@ -40,7 +40,7 @@ const Clients = () => {
                   src={logo}
                   alt={`Client ${index + 1}`}
                   loading="lazy"
-                  className="max-h-full max-w-[150px] object-cover transition-all duration-300"
+                  className="max-h-full max-w-[150px] object-contain transition-all duration-300"
                   // grayscale hover:grayscale-0 
                 />
               </div>
