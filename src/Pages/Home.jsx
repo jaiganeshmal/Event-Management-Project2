@@ -7,7 +7,7 @@ import FullBanner from "../Components/FullBanner";
 import EventHighlight from "../Components/EventHighlight";
 import ContactForm from "../Components/ContactForm";
 import InfoSection from "../Components/InfoSection";
-import Loader from "../Components/Loader"; // ✅ loader component tum already bana chuke ho
+import Loader from "../Components/Loader"; 
 import Achievements from "../Components/Achievements";
 import FaqSection from "../Components/FaqSection";
 

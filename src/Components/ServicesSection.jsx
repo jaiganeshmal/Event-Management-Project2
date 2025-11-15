@@ -4,21 +4,21 @@ import { assets } from "../assets/global";
 const services = [
   {
     id: 1,
-    title: "Private Events",
-    img: assets.image1,
-    desc: "At UC Events, we specialize in creating private events and celebrations tailored to your unique desires. Whether it's a private dinner, an anniversary party, or a chic soirée, we bring your vision to life with meticulous attention to detail.",
-  },
-  {
-    id: 2,
     title: "Wedding Events",
     img: assets.image2,
     desc: "Let us curate your dream wedding, where breathtaking venues and personalized vows come together to reflect your unique love story. Our team adds elegance and magic to every moment, ensuring your special day is filled with joy and beauty.",
   },
   {
-    id: 3,
+    id: 2,
     title: "Corporate Events",
     img: assets.image3,
     desc: "Take your corporate events to the highest levels with UC Events. From impactful conferences to luxurious gala evenings, we merge creativity with professionalism to deliver an unforgettable experience.",
+  },
+  {
+    id: 3,
+    title: "Private Events",
+    img: assets.image1,
+    desc: "At UC Events, we specialize in creating private events and celebrations tailored to your unique desires. Whether it's a private dinner, an anniversary party, or a chic soirée, we bring your vision to life with meticulous attention to detail.",
   },
   {
     id: 4,
